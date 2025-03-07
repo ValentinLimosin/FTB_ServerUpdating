@@ -8,7 +8,7 @@
 PACK_ID=XXX #Mettre l'id du Mod pack
 
 # Répertoire de base où sont stockées les versions (ex: /servers/minecraft/1.10, /servers/minecraft/1.21, etc.)
-BASE_DIR="/servers/minecraft"
+BASE_DIR="$HOME/servers/minecraft"
 
 # Détection automatique de la version actuelle en lisant les noms de dossiers dans BASE_DIR
 if ls -1 "$BASE_DIR" 2>/dev/null | grep -E '^[0-9]+\.[0-9]+' >/dev/null; then
